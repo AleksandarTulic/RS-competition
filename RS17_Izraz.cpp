@@ -45,7 +45,7 @@ int main()
  
     for (int i=0;i<ub.size();i++) iz.insert(ub[i]+i,"+");
  
-    unsigned long long suma=0;
+    usll suma=0;
     int pred=1;
     string g="";
  
@@ -54,7 +54,7 @@ int main()
         if (iz[i]!='+' && iz[i]!='-') g+=iz[i];
         else
         {
-            unsigned long long a=vr(g);
+            usll a=vr(g);
  
             suma+=a*pred;
             g="";
